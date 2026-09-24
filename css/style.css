@@ -33,7 +33,8 @@
     border: 5px solid #d1c2bb;
     text-align: center;
 }
-#vertical-feed-img{
+
+.vertical-feed-img{
     width: 50%;
 }
 .landscape-img{

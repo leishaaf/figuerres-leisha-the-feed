@@ -95,6 +95,7 @@ a:hover {
 }
 
 body{
+    cursor: url('../img/media/cursor.png'), auto;
     background-color: #f4c9d6;  
     font-family: "Inter", sans-serif;
     background-image: url('../img/media/background.jpg');
@@ -107,14 +108,30 @@ p{
     font-family: "VT323", monospace;
     font-size: 22px;
 }
+#feed-layout{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sidebar{
+    background-color: #f8dfe1;
+    padding: 20px 30px 20px 30px;  
+    border-radius: 15px;
+    border: 5px solid #f4c9d6;
+    margin: 30px 80px 30px auto; 
+    width: 50%;
+    text-align: center;
+}
 
 #fun{
     background-color: #f4c9d6;
     padding: 20px 30px 20px 30px;  
     border-radius: 15px;
     border: 5px solid #f8dfe1;
-    margin: 30px auto 30px auto; 
-    width: 50%;
+    margin: 30px 15% 30px auto; 
+    width: 90%;
     text-align: center;
 }
 
@@ -123,11 +140,10 @@ p{
     padding: 20px 30px 20px 30px;  
     border-radius: 15px;
     border: 5px solid #f4c9d6;
-    margin: 30px auto 30px auto; 
-    width: 50%;
+    margin: 30px 15% 30px auto; 
+    width: 90%;
     text-align: center;
 }
-
 
 #organization{
     background-color: #d1c2bb;
@@ -135,7 +151,7 @@ p{
     border-radius: 15px;
     border: 5px solid #f1e2e9;
     margin: 30px auto 30px auto; 
-    width: 50%;
+    width: 90%;
     text-align: center;
 }
 

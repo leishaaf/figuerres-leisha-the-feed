@@ -1,0 +1,144 @@
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.meow-script-regular {
+    font-family: "Meow Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#feed-header {
+    background-color: #f8dfe1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#home-header {
+    margin-top: 10%;
+    background-color: #f8dfe1;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid #d1c2bb;
+    text-align: center;
+}
+#vertical-feed-img{
+    width: 50%;
+}
+.landscape-img{
+    width: 95%;
+}
+
+#home-body{
+    background-color: #f4c9d6;  
+}
+
+#home-h3{
+    color:#ea9ba2;
+    font-family: "VT323", monospace;
+    text-align: center;
+}
+
+h1 {
+    color: #3e2723;
+    font-family: "Meow Script", cursive;
+    font-size: 72px;
+    text-align: center;
+}
+
+h2 {
+    color: #ea9ba2;
+    font-family: "VT323", monospace;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    color: #ea9ba2;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+h4 h5 h6 {
+    color: #614b49;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.brown-header {
+    color: #614b49;
+    font-family: "Meow Script", cursive;
+    font-size: 40px;
+    text-align: center;
+}
+a:visited{
+    color: #614b49;
+}
+
+a:hover {
+    color: #e8f0a2;
+}
+
+.video {
+    width:320px;
+}
+
+body{
+    background-color: #f4c9d6;  
+    font-family: "Inter", sans-serif;
+    background-image: url('../img/media/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p{
+    font-family: "VT323", monospace;
+    font-size: 22px;
+}
+
+#fun{
+    background-color: #f4c9d6;
+    padding: 20px 30px 20px 30px;  
+    border-radius: 15px;
+    border: 5px solid #f8dfe1;
+    margin: 30px auto 30px auto; 
+    width: 50%;
+    text-align: center;
+}
+
+#work{
+    background-color: #f8dfe1;
+    padding: 20px 30px 20px 30px;  
+    border-radius: 15px;
+    border: 5px solid #f4c9d6;
+    margin: 30px auto 30px auto; 
+    width: 50%;
+    text-align: center;
+}
+
+
+#organization{
+    background-color: #d1c2bb;
+    padding: 20px 30px 20px 30px;  
+    border-radius: 15px;
+    border: 5px solid #f1e2e9;
+    margin: 30px auto 30px auto; 
+    width: 50%;
+    text-align: center;
+}
+
+.soft-corners{
+    border-radius: 15px;
+}

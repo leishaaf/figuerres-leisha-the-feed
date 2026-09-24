@@ -50,6 +50,14 @@
     text-align: center;
 }
 
+#h3-nav{
+    color: #ea9ba2;
+    font-family:  "Meow Script", cursive;
+    font-size: 32px;
+    text-align: center;
+
+}
+
 h1 {
     color: #3e2723;
     font-family: "Meow Script", cursive;
@@ -70,7 +78,7 @@ h3 {
     text-align: center;
 }
 
-h4 h5 h6 {
+h4, h5, h6 {
     color: #614b49;
     font-family: "Inter", sans-serif;
     text-align: center;
@@ -106,23 +114,33 @@ body{
 
 p{
     font-family: "VT323", monospace;
+    color: #614b49;;
     font-size: 22px;
 }
-#feed-layout{
-    width: 60%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
+
+.nav-text{
+    font-family: "VT323", monospace;
+    color: #ea9ba2;
+    font-size: 22px;
+}
+
+#nav-container{
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
 }
 
 #sidebar{
     background-color: #f8dfe1;
-    padding: 20px 30px 20px 30px;  
     border-radius: 15px;
     border: 5px solid #f4c9d6;
-    margin: 30px 80px 30px auto; 
-    width: 50%;
-    text-align: center;
+    top: 530px;
+    bottom: 60px;
+    left: 0;
+    width: 25%;
+    position: fixed;
+    text-align: center; 
 }
 
 #fun{
@@ -131,7 +149,7 @@ p{
     border-radius: 15px;
     border: 5px solid #f8dfe1;
     margin: 30px 15% 30px auto; 
-    width: 90%;
+    width: 50%;
     text-align: center;
 }
 
@@ -141,20 +159,65 @@ p{
     border-radius: 15px;
     border: 5px solid #f4c9d6;
     margin: 30px 15% 30px auto; 
-    width: 90%;
+    width: 50%;
     text-align: center;
 }
+
 
 #organization{
     background-color: #d1c2bb;
     padding: 20px 30px 20px 30px;  
     border-radius: 15px;
     border: 5px solid #f1e2e9;
-    margin: 30px auto 30px auto; 
-    width: 90%;
+    margin: 30px 15% 30px auto; 
+    width: 50%;
     text-align: center;
 }
 
 .soft-corners{
     border-radius: 15px;
+}
+
+#star-sticker {
+    position: absolute;
+    top: 20px;         
+    right: 20px;       
+    width: 120px;
+    height: auto;
+    z-index: 10;       
+}
+#star-sticker2 {
+    position: absolute;
+    top: 365px;         
+    left: 20px;       
+    width: 120px;
+    height: auto;
+    z-index: 10;       
+}
+
+#kiss-sticker {
+    position: absolute;
+    top: 6235px;         
+    left: 500px;       
+    width: 120px;
+    height: auto;
+    z-index: 10;       
+}
+
+#heart-sticker {
+    position: absolute;
+    top: 9100px; 
+    right: 120px;       
+    width: 120px;
+    height: auto;
+    z-index: 10;       
+}
+
+
+#drawing-sticker {
+    position: absolute;
+    right: 100px;       
+    width: 120px;
+    height: auto;
+    z-index: 10;       
 }
